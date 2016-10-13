@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "colors": "^1.1.2",
+    "grunt": "^1.0.1",
+    "grunt-s3": "^0.2.0-alpha.3",
     "react-scripts": "0.6.1"
   },
   "dependencies": {
@@ -13,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "deploy": "grunt deploy",
     "eject": "react-scripts eject"
   }
 }
